@@ -9,9 +9,3 @@ def home():
 @app.get("/predict")
 def predict():
     return {"prediction": 42}
-```
-
-**requirements.txt**
-```
-fastapi
-uvicorn
